@@ -1,0 +1,602 @@
+
+*{ padding: 0px; margin: 0px; }
+ body{ background-color: #f2f2f2; height: 200em; }
+ ul {
+    font-size: 1.3em;
+    left: -30%;
+    list-style-type: none;
+    position: absolute;
+    font-family: sans-serif;
+     font-weight: bold;
+ } li {
+    font-weight: bold;
+    list-style-type: none;
+    color: #000;
+    border-bottom: 4px solid #1bada3;
+    
+    font-family: "Lato";
+    font-size: 16pt;
+    position: absolute;
+    
+ }li:hover{color: #1bada3;
+    padding-bottom: 15px;
+    transition: 0.5s ease;}li:active{ font-size: 20pt;
+  transition: 0.5s ease; }
+  input{ border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    border-bottom: 3px solid #1bada3; margin-left: 1em; 
+   }
+  button {
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 15pt;
+    width: 3.3em;
+    background: none; border: 2px solid #1bada3;
+    margin-left: 1em;
+ }button:hover{width: 3.9em; transition: 0.5s ease;
+    background-color: #1bada3; color: white;}
+
+/* le tétte */
+
+#div0{
+  position: absolute;
+  background: url('https://free4kwallpapers.com/uploads/originals/2020/05/19/code-letters-wallpaper.jpg') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 15em;
+  } #bg{ position: absolute; width: 100%; height: 15em; 
+    background: #0000008c;
+ }
+  #titles{
+    position: relative;
+   padding-left: 31%;
+  }
+  #tdc{padding-top: 1.2em;
+     position: relative;
+    color: #fff;
+    font-size: 4em;
+    font-family: "lato";
+    font-weight: bold;
+    border-bottom: 2px solid white; }
+    h2{     color: white;
+    font-family: cursive;
+    font-size: 22pt; }
+
+/*exo1 */
+
+#div1 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    left: 22em;
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo1{ position: absolute;
+      font-family: "lato";
+      text-align: center;
+        font-size: 20pt;
+        margin-top: 1.3em;
+    }#ul1{ margin-top: 1.6em; }
+    #rexo1 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 12pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo1{ position: absolute; display: none; }
+  #input1{ margin-top: 1.7em;  }
+  #pexe1{ 
+    font-family: "Lato";
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs1 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }
+    
+/*exo2 */
+
+#div2 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    left: em;
+    margin-top: 17em;
+    border-radius: 1.5em; }
+
+    #pexo2{ position: absolute;
+      font-family: "lato";
+      text-align: center;
+        font-size: 20pt;
+        margin-top: 1.3em;
+    }#ul2{ margin-top: 1.6em; }
+    #rexo2 {position: absolute;
+      display: none; font-weight: bold;
+    font-family: "lato";
+    font-size: .85em;
+    margin-top: .2em;
+    margin-left: .5em;
+ } #eexo2{ position: absolute;display: none; }
+  #input2{ margin-top: 1.7em;  }
+  #pexe2_1 {
+   position: absolute;  
+    font-family: "Lato";
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #pexe2_2 {
+  margin-left: 18.57em;
+   position: absolute;  
+    font-family: "Lato";
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ }#rjs2 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div2 input {
+    margin-top: 3em;
+    width: 11em;
+    margin-left: 2em;
+ }#div2 button {
+    margin-left: 9.8em; }
+
+#div3 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo3{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: .4em;
+    }#ul3{ margin-top: 1.6em; }
+    #rexo3 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo3{ position: absolute; display: none; }
+  #input3{ margin-top: 1.7em;  }
+  #pexe3{ 
+    font-family: "Lato";
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs3 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div3 button {
+   
+    margin-left: 1.5em;
+ }
+ #div3 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1.6em;
+ }
+
+#div4 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo4{ position: absolute;
+      font-family: "lato";
+      text-align: center;
+        font-size: 17pt;font-weight: bold;
+        margin-top: 1.7em;
+    }#ul4{ margin-top: 1.6em; }
+    #rexo4 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 11.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo4{ position: absolute; display: none; }
+  #input4{ margin-top: 1.7em;  }
+  #pexe4{ 
+    font-family: "Lato";
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 8.8em;
+    color: #1bada3;
+    margin-top: .2em;
+ }
+ #eexo4 p{
+  position: absolute;
+    
+    font-family: cursive;
+    
+ }
+
+   #rjs4 {
+    font-size: 2em;
+    color: black;
+    font-family: "Lato";
+    margin: 15px;
+ }#div4 button {
+   margin-top: 2em;
+    margin-left: 1.5em;
+ }
+ #div4 input {
+    margin-left: 1.4em;
+    width: 7em;
+    margin-top: 4em;
+ }
+ #pexe4_1{ 
+  margin-top: 2.3em;
+  margin-left: 1.4em;
+   }#pexe4_2{ 
+  margin-top: 2.3em;
+  margin-left: 11.2em;
+   }#pexe4_3 {
+    margin-top: 2.3em;
+    margin-left: 22.1em; }
+
+#div5 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo5{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.7em;
+    }#ul5{ margin-top: 1.6em; }
+    #rexo5 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo5{ position: absolute; display: none; }
+  #input5{ margin-top: 1.7em;  }
+  #pexe5{ 
+    font-family: "Lato";
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs5 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div5 button {
+   margin-top: -.67em;
+    margin-left: 1.5em;
+ }
+ #div5 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1em;
+ }   
+
+
+#div6 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+
+ #pexo6{ position: absolute; margin-left: 1.5em;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.7em;
+     }#ul6{ margin-top: 1.6em; }
+    #rexo6 {display: none;
+      position: absolute;
+      
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: 1em;
+    margin-left: .5em; font-weight: bold;
+ }
+  #pexe6{ display: none;
+    font-family: "Lato";
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 3.5em;
+ } 
+
+
+#div7 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo7{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.7em;
+    }#ul7{ margin-top: 1.6em; }
+    #rexo7 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: 1.9em;
+    margin-left: .5em; font-weight: bold;
+ } 
+  #rjs7{ 
+    font-family: "Lato";
+    font-weight: bold;
+    padding-left: 1em;
+    margin-top: 1em;display: none;
+    font-size: 1.1em;  
+    font-family: "Lato";
+    margin: 15px;
+ } 
+
+#div8 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo8{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.7em;
+    }#ul8{ margin-top: 1.6em; }
+    #rexo8 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: .9em;
+    margin-left: .5em; font-weight: bold;
+ } 
+  #rjs8{ 
+    padding-left: 1em;
+    padding-top: 2.2em;display: none; 
+    font-family: "Lato";
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+ } 
+
+
+ #div9 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo9{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.4em;
+     }#ul9{ margin-top: 1.6em; }
+    #rexo9 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo9{ position: absolute; display: none; }
+  #input9{ margin-top: 1.5em;  }
+  #pexe9{ 
+    font-family: "Lato";
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs9 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div9 button {
+   
+    margin-left: 1.5em;
+ }
+ #div9 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1.6em;
+ }
+ 
+
+
+#div10 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo10{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.4em;
+     }#ul10{ margin-top: 1.6em; }
+    #rexo10 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 13.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo10{ position: absolute; display: none; }
+  #input10{ margin-top: 1.5em;  }
+  #pexe10{ 
+    font-family: "Lato";
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs10 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div10 button {
+   
+    margin-left: 1.5em;
+ }
+ #div10 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1.6em;
+ }
+
+#div11 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo11{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.4em;
+     }#ul11{ margin-top: 1.6em; }
+    #rexo11 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 12.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo11{ position: absolute; display: none; }
+  #input11{ margin-top: 1.5em;  }
+  #pexe11{ 
+    font-family: "Lato";
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs11 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div11 button {
+   
+    margin-left: 1.5em;
+ }
+ #div11 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1.6em;
+ }
+
+
+#div12 {
+    position: absolute;
+    background-color: #19141329;
+    height: 15em;
+    width: 33em;
+    margin-top: 17em;
+    border-radius: 1.5em;
+ }
+
+    #pexo12{ position: absolute;
+      font-family: "lato";
+      text-align: center; font-weight: bold;
+        font-size: 17pt;
+        margin-top: 2.4em;
+     }#ul12{ margin-top: 1.6em; }
+    #rexo12 {position: absolute;
+      display: none;
+    font-family: "lato";
+    font-size: 12.3pt;
+    margin-top: .2em;
+    margin-left: .5em; font-weight: bold;
+ } #eexo12{ position: absolute; display: none; }
+  #input12{ margin-top: 1.5em;  }
+  #pexe12{ 
+    font-family: "Lato";
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #1bada3;
+    margin-top: 1em;
+ } #rjs12 {
+    font-size: 1.3em;
+    
+    font-family: "Lato";
+    margin: 15px;
+ }#div12 button {
+   
+    margin-left: 1.5em;
+ }
+ #div12 input {
+    margin-left: 1.4em;
+    width: 15em;
+    margin-top: 1.6em;
+ }

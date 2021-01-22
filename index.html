@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TD Langage C</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="div0">
+  <div id="bg"></div>
+  <div id="titles">
+  <p id="tdc">TD Langage C</p>
+  <p><h2> ISCAE | RT</h2></p>
+  </div>
+   
+  </div>
+
+<div id="div1">
+    <ul id="ul1" class="ul">
+    	<li onclick="pexo1()">Exercice</li><br><br><br>
+    	<li onclick="rexo1()">Réponse</li><br><br><br>
+    	<li onclick="eexo1()">Exucité</li>
+    </ul><article>r</article>
+	 <P id="pexo1">Ecrire un programme qui demande une durée<br> en 
+		secondes et l'affiche enheurs, minutes<br> et secondes.</p>
+	 <p id="rexo1">#include&lt;stdio.h&gt;<br>
+            int main()
+            {<br>
+            int d,h,m,s,r;<br>
+            printf("Entrer un durée en seconde :\n");<br>
+            scanf("%d",&amp;d);<br>
+            h=d/3600;<br>
+            r=d%3600;<br>
+             m=r/60;<br>
+            s=r%60;<br>
+            printf("%d est composé de %d heures, %d minutes et %d secondes:\n",d,h,m,s);<br>
+            return 0; }</p>
+     <div id="eexo1">
+     <p id="pexe1">Entrer un durée en seconde :</p>
+      <input type="text" id="input1"><br><br>
+      <button id="btn1" onclick="exo1()">RUN</button>
+      <p id="rjs1"></p>
+      
+     </div>
+
+<div id="div2">
+    <ul id="ul2" class="ul">
+    	<li onclick="pexo2()">Exercice</li><br><br><br>
+    	<li onclick="rexo2()">Réponse</li><br><br><br>
+    	<li onclick="eexo2()">Exucité</li>
+    </ul>
+	 <P id="pexo2">Ecrire un programme qui demande à l'utilisateur deux<br>
+      entiers de type int et les affiche dans l'ordre<br>
+      croissant.</p>
+	 <p id="rexo2">#include&lt;stdio.h&gt;<br>
+            int main()<br>
+            {int a,b;<br>
+            printf("Entrer le prémiére nombre:\n");<br>
+            scanf("%d",&amp;a);<br>
+            printf("Entrer le deuxiéme nombre:\n");<br>
+            scanf("%d",&amp;a);<br>
+            if(a&lt;b)<br>
+            printf("L'ordre croissant est respectivement : %d\t%d",a,b);<br>
+            else if(b&lt;a)<br>
+             printf("L'ordre croissant est respectivement :%d\t%d",b,a);<br>
+            else<br>
+            printf("Les entiers entrés sont égeaux \n")<br>return 0; } </p>
+     <div id="eexo2">
+     <p id="pexe2_1">Entrer le prémiére nombre:</p>
+     <p id="pexe2_2">Entrer le deuxiéme nombre:</p>
+      <input type="text" id="input2_1">
+      
+      <input type="text" id="input2_2"><br><br>
+      <button id="btn2" onclick="exo2()">RUN</button>
+      <p id="rjs2"></p>
+      
+     </div>
+
+<div id="div3">
+    <ul id="ul3" class="ul">
+    	<li onclick="pexo3()">Exercice</li><br><br><br>
+    	<li onclick="rexo3()">Réponse</li><br><br><br>
+    	<li onclick="eexo3()">Exucité</li>
+    </ul>
+	  <P id="pexo3">Ecrire un programme qui demande à l'utilisateur une année (2016 par
+       exemple)<br> et indique si celle-ci
+       est bissextile. Une année est bissextile si le nombre est divisible par 4 et pas
+        par 100 ou divisible par
+         400. par exemple l'année 1900 n'est pas divisible par 400. Elle est divisible
+         par 4 et par 100 donc elle n'est pas bissextile.</p>
+	  <p id="rexo3">#include&lt;stdio.h&gt;<br>
+            int main()
+            {<br>
+            int n;<br> pritf("Entrer une annee souhaitant savoire si elle est bissextile :\n");<br>
+     scanf("%d",&amp;n);<br>
+     if(((n%4==0)&amp;&amp;(n%100!=0))||(n%400==0))<br>
+     printf("L'année %d est bissextile \n",n);<br>
+     else<br>
+     printf("L'année %d n'est pas bissextile",n);<br>
+     return 0; }</p>
+     <div id="eexo3">
+     <p id="pexe3">Entrer une annee souhaitant savoire si elle est bissextile :</p>
+      <input type="text" id="input3"><br><br>
+      <button id="btn3" onclick="exo3()">RUN</button>
+      <p id="rjs3"></p>
+      
+     </div>
+
+<div id="div4">
+    <ul id="ul4" class="ul">
+    	<li onclick="pexo4()">Exercice</li><br><br><br>
+    	<li onclick="rexo4()">Réponse</li><br><br><br>
+    	<li onclick="eexo4()">Exucité</li>
+    </ul>
+	    <P id="pexo4">Ecrire un programme qui demande à l'utilisateur deux réels de type double puis un caractère correspndant à l'opération à effectuer (+; -; *; /) et affiche l'oppération ainsi que le résultat. par exemple, 2*3=6 .</p>
+	   <p id="rexo4">#include&lt;stdio.h&gt;<br>
+            int main()
+            {<br>
+            double a,b;<br>
+      char c;<br>
+         printf("Entrer un caractère :\n");<br>
+      scanf("%c",&c);<br>
+       printf("Entrer deux nombre :\n");<br>
+      scanf("%lf%lf",&a,&b);<br>
+        switch(c){<br>
+      case'+': printf("%lf+%lf=%lf",a,b,a+b); break;<br>
+      case'-' : printf("%lf-%lf=%lf",a,b,a-b); break;<br>
+      case'*': printf("%lf*%lf=%lf",a,b,a*b); break;<br>
+      case'/': { if(b==0)<br>
+           printf("impossible");<br>
+           else printf("%lf/%lf=%lf",a,b,a/b); break;<br>
+                     default : printf("n'est pas defini"); } }
+       return 0; } </p>
+     <div id="eexo4">
+     	<p id="pexe4">Entrer un</p>
+     <p id="pexe4_1"> nombre:</p>
+     <p id="pexe4_2"> charactére:</p>
+     <p id="pexe4_3"> nombre:</p>
+    
+      <input type="text" id="input4_1">
+      <input type="text" id="input4_2">
+      <input type="text" id="input4_3">
+
+      <button id="btn3" onclick="exo4()">RUN</button>
+      <p id="rjs4"></p>
+      
+     </div>
+
+<div id="div5">
+    <ul id="ul1" class="ul">
+    	<li onclick="pexo5()">Exercice</li><br><br><br>
+    	<li onclick="rexo5()">Réponse</li><br><br><br>
+    	<li onclick="eexo5()">Exucité</li>
+    </ul>
+	  <P id="pexo5">Ecrire un programme qui demande un entier entre 1 et 12 et affiche le mois
+    de l'année
+   correspondant. Par exemple, si l'utilisateur saisit l'entier 3, le programme
+    affiche &lt&ltmars>>.
+     </p>
+	  <p id="rexo5">#include&lt;stdio.h&gt;<br>
+            int main()
+   {
+    int n;
+     printf("Entrer un nombre entre 1 et 12 :\n");
+    scanf("%d",&n);
+      switch(n)
+       {
+    case 1: printf("janvier"); break;
+    case 2: printf("Fevrier"); break ;
+    case 3: printf("Mars"); break ;
+    case 4: printf("Avril"); break ;
+    case 5: printf("Mais"); break ;
+    case 6: printf("Juin"); break ;
+    case 7: printf("Juillet"); break ;
+    case 8: printf("Aout"); break ;
+    case 9: printf("Septembre"); break ;
+    case 10: printf("Octobre"); break ;
+    case 11: printf("Nouvembre"); break ;
+    case 12: printf("Decembre"); break ;
+    default : printf("n'est pas defini ");
+    }
+    return 0;
+    }</p>
+     <div id="eexo5">
+     <p id="pexe5">Entrer un nombre entre 1 et 12 :</p>
+      <input type="text" id="input5"><br><br>
+      <button id="btn5" onclick="exo5()">RUN</button>
+      <p id="rjs5"></p>
+      
+     </div>
+
+<div id="div6">
+    <ul id="ul1" class="ul">
+    	<li onclick="pexo6()">Exercice</li><br><br><br>
+    	<li onclick="rexo6()">Réponse</li><br><br><br>
+    	<li onclick="eexo6()">Exucité</li>
+    </ul>
+	    <P id="pexo6">Ecrire un programme calculant la somme des<br> entiers de 1 à 50
+
+      </p>
+	    <p id="rexo6">#include&ltstdio.h><br>
+      int main() {<br>
+     int i,s;<br>
+     s=0;<br>
+     for(i=1;i<=50;i++)<br>
+     s=s+i;<br>
+     printf("La somme des entiers de 1 à 50 est %d",s);<br>
+     return 0;
+    }</p>
+     <div id="eexo6">
+     <p id="pexe6">La somme des entiers de 1 à 50 est 1275</p>
+            
+     </div>
+
+<div id="div7">
+    <ul id="ul1" class="ul">
+    	<li onclick="pexo7()">Exercice</li><br><br><br>
+    	<li onclick="rexo7()">Réponse</li><br><br><br>
+    	<li onclick="rjs7()">Exucité</li>
+    </ul>
+	  <P id="pexo7"> Ecrire un programme qui affiche les carrées des entiers de 1 à 10
+        </p>
+	  <p id="rexo7">#include&lt;stdio.h&gt;<br>
+            int main() {<br>
+      int i;<br>
+      for(i=1;i<=10;i++)<br>
+      printf("le carrée de %d=%d\n",i,i*i);<br>
+      return 0;
+     }
+     </p>
+   
+     
+       <p id="rjs7">le carrée de 1=1<br>
+     le carrée de 2=4<br>
+     le carrée de 3=9<br>
+     le carrée de 4=16<br>
+    le carrée de 5=25<br>
+    le carrée de 6=36<br>
+    le carrée de 7=49<br>
+    le carrée de 8=64<br>
+    le carrée de 9=81<br>
+    le carrée de 10=100</p>
+      
+<div id="div8">
+    <ul id="ul1" class="ul">
+      <li onclick="pexo8()">Exercice</li><br><br><br>
+      <li onclick="rexo8()">Réponse</li><br><br><br>
+      <li onclick="rjs8()">Exucité</li>
+    </ul>
+    <P id="pexo8"> Ecrire un programme qui calcule la somme de tous les nombres entiers
+            positifs pairs inferieur à 50.</p>
+    <p id="rexo8">#include&ltstdio.h><br>
+          int main()
+          {<br>
+           int i,s;<br>
+           s=0;<br>
+           for(i=1;i<=50;i++)
+           {<br>
+           if(i%2==0)<br>
+           s=s+i;<br>
+           }
+           printf("La somme des entiers positifs paire inferieur à 50 est %d\n",s);<br>
+           return 0;
+          }</p>
+   
+     
+       <p id="rjs8"> </p>      
+
+
+<div id="div9">
+    <ul id="ul9" class="ul">
+      <li onclick="pexo9()">Exercice</li><br><br><br>
+      <li onclick="rexo9()">Réponse</li><br><br><br>
+      <li onclick="eexo9()">Exucité</li>
+    </ul>
+    <P id="pexo9">Ecrire un programme qui affiche tous les diviseur d'un entier n qui sera
+                  saisi au clavier
+                  </p>
+     <p id="rexo9">#include&ltstdio.h><br>
+               int main()
+               {<br>
+                int i,n;<br>
+                printf("Entrer un nombre souhaitant savoir ces diviseur :\n");<br>
+                scanf("%d",&n);<br>
+                printf("Les diviseurs de %d sont respectivement :\n",n);<br>
+                for(i=1;i<=n;i++){<br>
+                if(n%i==0)<br>
+                printf("%d\n",i); }<br>
+                return 0;
+              }               </p>
+     <div id="eexo9">
+     <p id="pexe9">Entrer un nombre souhaitant savoir ces diviseur :</p>
+      <input type="text" id="input9"><br><br>
+      <button id="btn9" onclick="exo9()">RUN</button>
+      <p id="rjs9"></p>
+      
+     </div>
+  
+<div id="div10">
+    <ul id="ul1" class="ul">
+      <li onclick="pexo10()">Exercice</li><br><br><br>
+      <li onclick="rexo10()">Réponse</li><br><br><br>
+      <li onclick="eexo10()">Exucité</li>
+    </ul>
+    <P id="pexo10">Ecrire un programme qui calcule la somme des n premiers termes de la
+      serie hormonique,
+      c'est-à-dire la somme : 1+1/2+1/3+1/4+.....+1/n. L'entier n demandé à
+      l'tilisateur.</p>
+     <p id="rexo10">#include&ltstdio.h><br>
+               int main()
+               {<br>
+                ifloat n,i;<br>
+        float s;<br>
+        printf("Entrer un nombre :\n");<br>
+        scanf("%f",&n);<br>
+        s=0;<br>
+        for(i=1;i<=n;i++)<br>
+        s=s+1/i;<br>
+        printf("La somme hormonique de 1 à %f=%f",n,s);<br>
+        return 0;
+              }               </p>
+     <div id="eexo10">
+     <p id="pexe10">Entrer un nombre :</p>
+      <input type="text" id="input10"><br><br>
+      <button id="btn10" onclick="exo10()">RUN</button>
+      <p id="rjs10"></p>
+      
+     </div>
+
+
+<div id="div11">
+    <ul id="ul1" class="ul">
+      <li onclick="pexo11()">Exercice</li><br><br><br>
+      <li onclick="rexo11()">Réponse</li><br><br><br>
+      <li onclick="eexo11()">Exucité</li>
+    </ul>
+    <P id="pexo11">Ecrire un programme qui demande à l'utilisateur de saisir un entier n, puis
+          affiche tous les entiers paires entre 1 et n.
+          Par exemple si n=9, le programme affiche 2, 4, 6, 8</p>
+     <p id="rexo11">#include&ltstdio.h><br>
+               int main()
+               {<br>
+                int i,n;<br>
+                do{<br>
+               printf("Entrer un nombre :\n");<br>
+                scanf("%d",&n);<br>
+                }while(n<2);<br>
+                printf("les nombre paires entre 1 et %d sont respectivement :\n",n);<br>
+                for(i=1;i<=n;i++){<br>
+                if(i%2==0)<br>
+                printf("%d\n",i);
+                }<br>
+                return 0;
+               }              </p>
+     <div id="eexo11">
+     <p id="pexe11">Entrer un nombre :</p>
+      <input type="text" id="input11"><br><br>
+      <button id="btn11" onclick="exo11()">RUN</button>
+      <p id="rjs11"></p>
+      
+     </div>
+
+<div id="div12">
+    <ul id="ul1" class="ul">
+      <li onclick="pexo12()">Exercice</li><br><br><br>
+      <li onclick="rexo12()">Réponse</li><br><br><br>
+      <li onclick="eexo12()">Exucité</li>
+    </ul>
+    <P id="pexo12">Ecrire un programme qui demande à l'utilisateur de saisir un entier n, puis
+          affiche tous les entiers paires entre 1 et n.
+          Par exemple si n=9, le programme affiche 2, 4, 6, 8</p>
+     <p id="rexo12">#include&ltstdio.h><br>
+               int main()
+               {<br>
+                int i,j,s;<br>
+      printf("Les nombres parfait de 2 à 1000 sont respectivement :\n ");<br>
+      for(i=2;i<=1000;i++){<br>
+      s=0;<br>
+      for(j=1;j&lt;j++){<br>
+      if(i%j==0)<br>
+      s=s+j; }<br>
+      if(s==i)<br> 
+      printf("%d\n",i);  }<br>
+      return 0;  }         </p>
+          <div id="eexo12">
+     
+      <p id="rjs12">Les nombres parfait de 2 à 1000 sont respectivement : <br>6<br>28<br>496</p>
+      
+     </div>
+
+
+
+
+<script type="text/javascript" src="main.js"> </script>
+</body>
+</html>
